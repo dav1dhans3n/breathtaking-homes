@@ -8,8 +8,10 @@
     <title>Breathtaking Homes LLC</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="scripts/bootstrap.css">
+<link href="scripts/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -26,187 +28,185 @@
         }
       }
     </style>
+
     
-    <!-- Custom styles for the Skyline Cafe -->
-    <link rel="stylesheet" href="scripts/bth.css">
+    <!-- Custom styles for this template -->
+    <link href="scripts/bth.css" rel="stylesheet">
   </head>
-<body class="bth-bg-red">
-  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Breathtaking Homes LLC</a>
-      <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="offcanvas" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#">Breathtaking Homes LLC</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-  
-      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="#">Link</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page"href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="contact.html">Contact Us</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </li>
         </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </div>
     </div>
   </nav>
-  
-<main class="container">
-  <div class="d-flex align-items-center p-3 my-3 text-white sky-bg-green rounded shadow-sm">
-    <img class="me-3" src="img/Logo.jpeg" alt="" width="50" height="50">
-    <div class="lh-1">
-      <h1 class="h6 mb-0 text-white lh-1">Welcome to the home of Breathtaking Homes LLC</h1>
-    </div>
-  </div>
-  <div class="my-3 p-3 bg-white rounded shadow-sm">
-    <h6 class="border-bottom fs-3 fw-bolder pb-2 mb-0">Specials for the week</h6>
-    <div class="d-flex text-dark pt-3 border-bottom">
-      <p class="col-8 pb-3 mb-0 fs-5 lh-sm">
-        <strong class="d-block text-gray-dark">Monday Mar 1, 2021</strong>
-        Meatball Sub - $6.99<br>
-        <small class="fs-6">Meatballs cooked in a savory Marinara sauce and topped with Parmesan and Provolone cheeses. 
-        Served with steak fries.<br>
-        (upgrade to Sweet Potato Fries + $1.25)</small>
-      </p>
-      <p class="col-4 fs-5 gx-5 ps-3">
-        <strong>Soup of the Day</strong><br>
-        Chicken Noodle
-      </p>
-    </div>
-    <div class="d-flex text-dark pt-3 border-bottom">
-      <p class="col-8 pb-3 mb-0 fs-5 lh-sm">
-        <strong class="d-block text-gray-dark">Tuesday Mar 2, 2021</strong>
-        <small class="fs-6">No special today</small><br>
-      </p>
-      <p class="col-4 fs-5 ps-3">
-        <strong>Soup of the Day</strong><br>
-        Broccoli Cheddar
-      </p>
-    </div>
-    <div class="d-flex text-dark pt-3 border-bottom">
-      <p class="col-8 pb-3 mb-0 fs-5 lh-sm">
-        <strong class="d-block text-gray-dark">Wednesday Mar 3, 2021</strong>
-        Baked Penne Pasta with Bolognese - $6.99<br>
-        <small class="fs-6">Freshly made penne pasta with ricotta cheese, shredded mozzarella, shredded cheddar, 
-        cherry tomatoes, and a savory Bolognese sauce baked to perfection. Served with garlic toast.</small>
-      </p>
-      <p class="col-4 fs-5 ps-3">
-        <strong>Soup of the Day</strong><br>
-        Minestrone
-      </p>
-    </div>
-    <div class="d-flex text-dark pt-3 border-bottom">
-      <p class="col-8 pb-3 mb-0 fs-5 lh-sm">
-        <strong class="d-block text-gray-dark">Thursday Mar 4, 2021</strong>
-        Buffalo Chicken Sandwich - $7.99<br>
-        <small class="fs-6">Marinated chicken breast fried to perfection and tossed in buffalo wing sauce. Served on a 
-        toasted brioche roll with lettuce, tomato and blue cheese dressing. Served with steak fries.</small>
-        <strong class="d-block text-gray-dark">Keto special of the Day</strong>
-        Chicken Broccoli Casserole - $6.99<br>
-        <small class="fs-6">Marinated chicken breast tossed with broccoli florets with a creamy Cheddar cheese sauce.</small>
-      </p>
-      <p class="col-4 fs-5 ps-3">
-        <strong>Soup of the Day</strong><br>
-        Baked Potato Chowder
-      </p>
-    </div>
-    <div class="d-flex text-dark pt-3">
-      <p class="col-8 pb-3 mb-0 fs-5 lh-sm">
-        <strong class="d-block text-gray-dark">Friday Mar 5, 2021</strong>
-        Chef Jeff's Crab Cake Sandwich - $9.95<br>
-        <small class="fs-6">Freshly made pan fried lump crab cake served on brioche roll with lettuce and tomato. 
-        Served with French fries and pickle spear.<br>
-        (upgrade to Sweet Potato Fries + $1.25)</small>
-      </p>
-      <p class="col-4 fs-5 ps-3">
-        <strong>Soup of the Day</strong><br>
-        Sausage & Tortellini
-      </p>
-    </div>
-  </div>
+</header>
 
-  <div class="my-3 p-3 bg-white rounded shadow-sm">
-    <h6 class="order-bottom pb-2 mb-0">Recent updates</h6>
-    <div class="row d-flex text-dark pt-3">
-      <div class="col-sm">
-        <p class="pb-3 mb-0 fs-5 lh-sm border-bottom">
-          <strong class="d-block text-gray-dark">Feb 20, 2021</strong>
-          Elizabeth Hansen, founder of Priceless Confections announced today that The Skyline Caf&eacute; will open its 
-          doors on March 10, 2021, in the Smyrna Health and Wellness Center at 100 South Main Street, Suite 102, Smyrna, Delaware. 
-          The Skyline Caf&eacute; is a collaboration between Liz and Chef Jeff Moore, one of Delaware's up and coming 
-          favorite chefs.<br>
-          <br>
-          These two Delaware Natives heard their inner voices urging them to open a restaurant that 
-          offers an appetizing variety of healthy breakfast and lunch options made from scratch and prepared 
-          fresh daily, directly on the premises with respect to customers preferences and at an excellent price. <br>
-          <br>
-          As a result, The Skyline Caf&eacute; was born and includes treasured recipes from many of the great cities 
-          across the USA as well as some local favorites. Come see us and you will find the difference that using fresh 
-          ingredients makes. <br>
-          <br>
-        </p>
-      </div>    
-      <div class="col-sm">
-          <img src="img/coffee-bar.jpg" alt="an inviting coffee bar"><br>
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Example headline.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+          </div>
+        </div>
       </div>
-      <hr>
-    </div>
-  
-    <div class="d-flex text-muted pt-3">
-      <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" 
-        role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
-        <rect width="100%" height="100%" fill="#007bff"/><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
 
-      <p class="pb-3 mb-0 small lh-sm border-bottom">
-        <strong class="d-block text-gray-dark">Jan 27, 2021</strong>
-          The cookline is in and ready to go. The rest of the kitchen build out is nearly complete, the team is expanding, 
-          suppliers are ready, and the custom coffee bar is installed!
-      </p>
-    </div>
-    <div class="d-flex text-muted pt-3">
-      <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" 
-        role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
-        <rect width="100%" height="100%" fill="#e83e8c"/><text x="50%" y="50%" fill="#e83e8c" dy=".3em">32x32</text></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
 
-      <p class="pb-3 mb-0 small lh-sm border-bottom">
-        <strong class="d-block text-gray-dark">Oct 9, 2020</strong>
-          The vision is set and the build out is well underway. We started to share information on our Facebook site to 
-          start getting the word out. <a href="https://www.facebook.com/TheSkylineCafeLLC">Link to our FB Page</a>
-      </p>
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>One more for good measure.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="d-flex text-muted pt-3">
-      <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" 
-        role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
-        <rect width="100%" height="100%" fill="#6f42c1"/><text x="50%" y="50%" fill="#6f42c1" dy=".3em">32x32</text></svg>
-
-      <p class="pb-3 mb-0 small lh-sm border-bottom">
-        <strong class="d-block text-gray-dark">Aug 2020</strong>
-        The lease has been signed and we are starting to build the team and the vision of the cafe.
-      </p>
-    </div>
-    <small class="d-block text-end mt-3">
-      <a href="#">All updates</a>
-    </small>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
   </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Heading</h2>
+        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Heading</h2>
+        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Heading</h2>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
 </main>
 
-<footer class="footer mt-auto py-3 bg-light">
-  <div class="container">
-    <span class="text-muted">
-      <a href="https://www.facebook.com/BTHomesLLC" class="fa fa-facebook" title="Facebook">Follow us on Facebook</a>
-    </span>
-  </div>
-</footer>
 
-<!-- Bootstrap core JS -->
     <script src="scripts/bootstrap.bundle.min.js"></script>
-    <!-- Custom JS for The Skyline Cafe -->
-    <script src="scripts/bth.js"></script>
+
+      
   </body>
 </html>
