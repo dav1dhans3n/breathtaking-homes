@@ -55,7 +55,7 @@ form.addEventListener("submit", (event) => {
     const { name, email, message } = event.target;
 
     const endpoint =
-      "https://ki1666ekyg.execute-api.us-east-1.amazonaws.com/default/SkylineSendContactEmail";
+      "https://dxg7sroht0.execute-api.us-east-1.amazonaws.com/default/BTHsendContactEmail";
 
     const body = JSON.stringify({
       senderName: name.value,
