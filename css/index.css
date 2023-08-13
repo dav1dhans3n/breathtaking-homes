@@ -40,8 +40,9 @@
 
 #navbar__logo {
   padding: 0 20px;
-  color: #b01604;
-  /* #f94430; */
+  color: rgb(245, 4, 4);
+  /*color: #b01604;
+   #f94430; */
   display: flex;
   align-items: center;
   cursor: pointer;
