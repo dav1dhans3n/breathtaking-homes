@@ -1,146 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <link rel="canonical" href="https://www.skylinecateringllc.com/contact/" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Make your home take your breath away!" />
-    <meta name="author" content="David Hansen" />
-    <title>Contact Us - Breathtaking Homes LLC</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <meta
+      name="description"
+      content="Skyline Catering has experts that will answer your questions and help guide you to the perfect event plan."
+    />
+    <title>Request a Quote - Skyline Catering of Delaware</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&family=Roboto:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&family=Merriweather:ital@1&family=Roboto&display=swap"
       rel="stylesheet"
     />
-
-    <!-- Bootstrap core CSS -->
-    <link href="scripts/bootstrap.min.css" rel="stylesheet" />
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    <!-- Custom styles for this template -->
-    <link href="scripts/bth.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/contact_content.css" />
   </head>
-
-  <body class="bg-yellow">
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Breathtaking Homes LLC</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="nav-item active">
-                <a class="nav-link" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="contact.html">Contact BTH</a>
-              </li>
-            </ul>
-          </div>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="https://www.skylinecateringllc.com/" id="navbar__logo"
+          >Skyline Catering</a
+        >
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-      </nav>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="https://www.skylinecateringllc.com/" class="navbar__links"
+              >Home</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a
+              href="https://www.skylinecateringllc.com/weddings.html"
+              class="navbar__links"
+              >Weddings</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a
+              href="https://www.skylinecateringllc.com/events.html"
+              class="navbar__links"
+              >Events</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a
+              href="https://www.skylinecateringllc.com/take_it_home.html"
+              class="navbar__links"
+              >Take it Home</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a
+              href="https://www.skylinecateringllc.com/our_story.html"
+              class="navbar__links"
+              >Our Story</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a
+              href="https://www.skylinecateringllc.com/contact.html"
+              class="button"
+              >Request a Quote</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="hero">
+      <div class="hero__container">
+        <div class="hero__content">
+          <h1>Looking for help?</h1>
+          <p>
+            You're in the right place! From guiding you to the perfect event
+            plan, to handling a purchase-related question. Just submit your
+            questions to one of our catering experts and we'll get back to you
+            asap.
+          </p>
+        </div>
+      </div>
     </header>
 
-    <!-- CONTACT FORM -->
-    <div class="container contact-container">
-      <form action="" method="POST" class="form">
-        <div class="form-group">
-          <label for="name" class="form-label">Your Name</label>
-          <input
-            type="text"
-            class="form-control"
-            id="name"
-            name="name"
-            placeholder="Jane Doe"
-            tabindex="1"
-            required
-          />
-        </div>
-        <div class="form-group">
-          <label for="email" class="form-label">Your Email</label>
-          <input
-            type="email"
-            class="form-control"
-            id="email"
-            name="email"
-            placeholder="janedoe@email.com"
-            tabindex="2"
-            required
-          />
-        </div>
-        <div class="form-group">
-          <label for="subject" class="form-label">Subject</label>
-          <input
-            type="subject"
-            class="form-control"
-            id="subject"
-            name="subject"
-            placeholder="Hello, I have a quick question for you"
-            tabindex="3"
-            required
-          />
-        </div>
-        <div class="form-group">
-          <label for="message" class="form-label">Message</label>
-          <textarea
-            class="form-control"
-            rows="5"
-            cols="50"
-            id="message"
-            name="message"
-            placeholder="Enter message..."
-            tabindex="4"
-          ></textarea>
-        </div>
-        <div class="">
-          <button class="bttn" type="submit">Send Message</button>
-        </div>
-      </form>
-    </div>
+    <!-- Content Section -->
+    <section class="contact__section">
+      <div class="contact__container">
+        <div class="contact__card contact-row">
+          <div>
+            <h2 class="">Request for Information or a Quote</h2>
+            <p class="contact__info text-center">
+              Call us at (302) 389-6679<br />
+              Office hours: Tues-Sat 8am - 4pm<br />
+              Email: info@skylinecateringllc.com <br />
+            </p>
+            <form name="contact-form">
+              <div class="full">
+                <p class="contact__instructions text-center">
+                  This form will send us an email and we will be in contact with
+                  you within 24 hrs.
+                </p>
+              </div>
+              <div class="form-control">
+                <input
+                  class="form-element"
+                  name="name"
+                  type="text"
+                  placeholder="First and Last Name"
+                  id="name-input"
+                />
+                <div class="error hide">Name is required</div>
+              </div>
 
-    <!-- FOOTER -->
-    <!--    <div>
-      <footer class="container-fluid">
-        <p class="float-end"><a href="#">Back to top</a></p>
-        <p>&copy; 2016-2021 Breathtaking Homes LLC &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-    </div>          
--->
-    <!-- SCRIPTS -->
-    <script src="scripts/bootstrap.bundle.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="scripts/bth.js"></script>
+              <div class="form-control">
+                <input
+                  class="form-element"
+                  name="email"
+                  type="email"
+                  placeholder="your_email@example.com"
+                  id="email-input"
+                />
+                <div class="error hide">Email is invalid</div>
+              </div>
+              <div class="form-control full">
+                <textarea
+                  class="form-element"
+                  name="message"
+                  placeholder="Your message"
+                  id="message-input"
+                ></textarea>
+                <div class="error hide">Message is required</div>
+              </div>
+              <!-- <div class="form-control">
+                <input
+                  class="form-element"
+                  name="phone"
+                  type="tel"
+                  placeholder="Phone number is optional"
+                  id="phone-input"
+                />
+                <div class="error hide">Phone is invalid</div>
+              </div> -->
+              <div class="submit-group">
+                <input type="submit" value="Send Message" />
+              </div>
+              <div>
+                <p id="result-text"></p>
+              </div>
+            </form>
+            <div class="thank-you hide">
+              <h2 class="text-center"><b>Success!</b></h2>
+              <p class="">
+                Thank you for contacting us. Your message has been emailed and
+                you should expect to hear from us within 24 hours.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="#">Testimonials</a>
+            <a href="#">Awards</a>
+            <a href="#">Join our Team</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="https://www.skylinecateringllc.com/contact.html"
+              >Contact Us</a
+            >
+            <a href="#">FAQ</a>
+            <a href="#">Location</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Gallery</h2>
+            <a href="#">Weddings</a> <a href="#">Showers</a>
+            <a href="#">Corporate</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a
+              href="https://www.instagram.com/skylinecateringllc/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+            <a
+              href="https://www.facebook.com/SkylineCateringLLC/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Facebook</a
+            >
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <h3 class="footer__host">Hosted and designed by:</h3>
+            <a
+              href="https://www.datatothemax.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              id="footer__logo"
+              >Data To The Max</a
+            >
+          </div>
+          <p class="website__rights">
+            © Skyline Catering LLC - All rights reserved
+          </p>
+        </div>
+      </section>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/contactme.js"></script>
   </body>
 </html>
