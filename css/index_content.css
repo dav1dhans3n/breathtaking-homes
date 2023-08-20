@@ -20,9 +20,7 @@ p {
   justify-self: center;
   margin: 0 auto;
   height: 25vh;
-  background-image: url(../img/img-ly-SuhWMcXsrJQ-unsplash.jpg);
-  background-position: center;
-  background-size: cover;
+
   position: relative;
   z-index: 1;
   width: 100%;
@@ -31,10 +29,20 @@ p {
   padding-left: 50px;
 }
 
+.hero__container::before {
+  content: "";
+  background-image: url(../img/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.6;
+  position: absolute;
+  inset: 0;
+}
+
 .hero__content {
   /* font-family: "Cinzel", serif; */
   text-transform: capitalize;
-  color: #0a12f8;
+  color: #ec0404;
   position: absolute;
   top: 20%;
   left: 40%;
@@ -43,7 +51,12 @@ p {
 }
 
 .hero__content h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
+  font-weight: 900;
+  text-shadow: 1px 0 0 #000000, 0 1px 0 #000000, 0 -1px 0 #000000,
+    -1px 0 0 #000000, 1px 1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000,
+    -1px -1px 0 #000000;
+  isolation: isolate;
 }
 
 /* Mobile Responsive */

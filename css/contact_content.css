@@ -82,27 +82,36 @@ p {
     width: 100%;
     margin: 0 auto;
     height: 25vh;
+    padding: 10px;
   }
 
   .hero__content {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    text-transform: none;
   }
 
   .hero__content h1 {
     font-size: 1.75rem;
     margin-top: 2rem;
   }
+
+  .hero__content p {
+    font-size: 1rem;
+    text-transform: none;
+    padding: 10px;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .hero__content h1 {
     font-size: 1.25rem;
-    margin-top: 2rem;
+    margin: 0 10px;
   }
 
   .hero__content p {
-    font-size: 0.75rem;
+    font-size: 1rem;
+    text-transform: none;
   }
 }
 
