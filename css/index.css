@@ -72,6 +72,58 @@
   height: 100%;
 }
 
+.dropdown__link {
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  background: #131313;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  padding: 0;
+}
+
+.dropdown-menu {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 0.25rem);
+  background-color: white;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  /* shadow box is black and with opacity for grey shadows */
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  /* setting opacity to 0 to enable animation */
+  opacity: 0;
+  pointer-events: none;
+  /* adjust dropdown so it drops in (coupled with trasition transform)  */
+  transform: translateY(-10px);
+  /* adjust animation so it is smoother */
+  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+}
+
+.dropdown.active > .link + .dropdown-menu {
+  /* Open dropdown menu when clicked without java script */
+  opacity: 1;
+  /* adjust dropdown so it drops in  */
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.information-grid {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  gap: 2rem;
+}
+
+.dropdown-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
 .navbar__btn {
   display: flex;
   justify-content: center;
@@ -173,6 +225,12 @@
     padding: 2rem;
     width: 100%;
     display: table;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    left: 5rem;
+    text-align: center;
   }
 
   .navbar__btn {
