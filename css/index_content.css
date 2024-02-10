@@ -10,8 +10,9 @@ p {
 }
 
 .hero {
-  /* background-color: #f3eed9; */
-  background-color: #8dd0f7;
+  /* background-color: #f3eed9;
+  background-color: #8dd0f7; */
+  background-color: #8e8c8c;
 }
 
 .hero__container {
@@ -117,7 +118,8 @@ p {
 /****** Opening Content ******/
 
 .opening {
-  background-color: #8dd0f7;
+  /* background-color: #8dd0f7; */
+  background-color: #8e8c8c;
   display: flex;
   flex-direction: row;
   justify-content: center;

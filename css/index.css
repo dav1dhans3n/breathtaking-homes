@@ -54,6 +54,7 @@
 .navbar__menu {
   display: flex;
   align-items: center;
+  white-space: nowrap;
   list-style: none;
   text-align: center;
 }
@@ -186,7 +187,7 @@
     grid-template-columns: auto;
     margin: 0;
     width: 100%;
-    position: absolute;
+    position: relative;
     top: -1000px;
     opacity: 1;
     transition: all 0.5s ease;
