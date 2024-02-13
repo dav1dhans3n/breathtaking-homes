@@ -16,7 +16,7 @@ p {
 }
 
 .hero {
-  background-color: #c5d5cb;
+  background-color: #8e8c8c;
 }
 
 .hero__container {
@@ -31,6 +31,10 @@ p {
     #52d6fa 50%,
     #1f13a7
   );
+
+  /* redish background
+  background: linear-gradient(to top, #ff0844 0%, #ffb199 100%); */
+
   background-position: center;
   background-size: cover;
   position: relative;
@@ -118,7 +122,7 @@ p {
 /****** Contact Us Content ******/
 
 .contact__section {
-  background-color: #c5d5cb;
+  background-color: #8e8c8c;
   display: flex;
   flex-direction: row;
   justify-content: center;

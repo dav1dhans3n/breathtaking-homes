@@ -20,7 +20,7 @@ p {
   align-items: center;
   justify-self: center;
   margin: 0 auto;
-  height: 25vh;
+  height: 30vh;
 
   position: relative;
   z-index: 1;
@@ -35,7 +35,7 @@ p {
   background-image: url(../img/hero.jpg);
   background-position: center;
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.85;
   position: absolute;
   inset: 0;
 }
